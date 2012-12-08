@@ -4,6 +4,7 @@ description: Document Description
 url: http://project-open-data.github.com/jekyll-template
 repo_url: https://github.com/project-open-data/jekyll-template
 project_open_data_url: http://project-open-data.github.com
+prose_url: http://project-open-data.github.com/prose/#
 
 # default build settings for running locally, no need to edit
 server: auto

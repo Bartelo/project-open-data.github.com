@@ -23,12 +23,12 @@
         <link rel="stylesheet" href="{{ site.url }}/css/main.css">
 
         <script src="{{ site.url }}/js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+        {% include edit-url.html %}
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
         <![endif]-->
-
  <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
@@ -37,12 +37,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">Project Open Data</a>
+          <a class="brand" href="{{ site.project_open_data_url }}">Project Open Data</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="{{ site.project_open_data_url }}">Home</a></li>
-              <li><a href="#Improve">Help Improve this Content!</a></li>
-              <li><a href="#Fork">Fork me on GitHub!</a></li>
+              <li class="active"><a href="{{ site.url }}">Home</a></li>
+              <li><a href="{{ edit_url }}">Help improve this Content</a></li>
+              <li><a href="{{ site.repo_url }}">Fork on GitHub</a></li>
           </div><!--/.nav-collapse -->
         </div>
       </div>
